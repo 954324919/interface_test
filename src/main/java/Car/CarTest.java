@@ -1,14 +1,19 @@
 package Car;
 
+import io.restassured.response.ResponseBody;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static io.restassured.RestAssured.get;
+
 public class CarTest {
+    /**
     @BeforeTest
     public void setUp(){
         String test="123";
     }
+
     @Test
     public void test01(){
         int a=1;
@@ -30,5 +35,9 @@ public class CarTest {
         }catch(Exception e){
             e.printStackTrace();
         }
+    }*/
+    public void demo(){
+        int code=get("http://www.baidu.com").getStatusCode();
+
     }
 }

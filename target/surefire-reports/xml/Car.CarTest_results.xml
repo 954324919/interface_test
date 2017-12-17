@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.003">
+           time="0.011">
   <properties />
   
   
             <testcase name="test02" time="0.001" classname="Car.CarTest" />
-                <testcase name="test01" time="0.002" classname="Car.CarTest" />
+                <testcase name="test01" time="0.010" classname="Car.CarTest" />
       
 </testsuite>
