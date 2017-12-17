@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="TestSuite" time="1.468" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\idea-project\Project\ideapro\autohome"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\idea-project\Project\ideapro\autohome"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jack\AppData\Local\Temp\surefirebooter6198344358569179067.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jack\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Perl64\site\bin;C:\Perl64\bin;C:\Perl64\eg;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\jre\bin;D:\adt\adt-bundle-windows-x86\sdk\platform-tools;D:\adt\adt-bundle-windows-x86\sdk\tools;C:\Python27;C:\Program Files\nodejs\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.4 &amp; MySQL Utilities 1.5.4 1.5\Doctrine extensions for PHP\;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Users\Jack\AppData\Roaming\npm\node_modules\anyproxy\node_modules\express;C:\Python27\Lib\site-packages;C:\Python27\Scripts;C:\Program Files\Git\cmd;C:\OpenSSL-Win64\bin;D:\idea-project\maven\apache-maven-3.5.0\bin;D:\idea-project\gradle-2.10\bin;C:\Users\Jack\AppData\Roaming\npm;."/>
+    <property name="surefire.test.class.path" value="D:\idea-project\Project\ideapro\autohome\target\test-classes;D:\idea-project\Project\ideapro\autohome\target\classes;D:\idea-project\maven\Localware\org\apache\maven\maven-ant-tasks\2.1.3\maven-ant-tasks-2.1.3.jar;D:\idea-project\maven\Localware\org\apache\ant\ant\1.8.0\ant-1.8.0.jar;D:\idea-project\maven\Localware\org\apache\ant\ant-launcher\1.8.0\ant-launcher-1.8.0.jar;D:\idea-project\maven\Localware\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;D:\idea-project\maven\Localware\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-file\1.0-beta-6\wagon-file-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-http-lightweight\1.0-beta-6\wagon-http-lightweight-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;D:\idea-project\maven\Localware\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;D:\idea-project\maven\Localware\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\testng\testng\6.8.5\testng-6.8.5.jar;D:\idea-project\maven\Localware\junit\junit\4.10\junit-4.10.jar;D:\idea-project\maven\Localware\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\idea-project\maven\Localware\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\idea-project\maven\Localware\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\idea-project\maven\Localware\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;D:\idea-project\maven\Localware\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\idea-project\maven\Localware\velocity\velocity\1.4\velocity-1.4.jar;D:\idea-project\maven\Localware\org\uncommons\reportng\1.1.5\reportng-1.1.5.jar;D:\idea-project\maven\Localware\com\google\inject\guice\3.0\guice-3.0.jar;D:\idea-project\maven\Localware\javax\inject\javax.inject\1\javax.inject-1.jar;D:\idea-project\maven\Localware\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Jack"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Jack"/>
+    <property name="java.class.path" value="D:\idea-project\Project\ideapro\autohome\target\test-classes;D:\idea-project\Project\ideapro\autohome\target\classes;D:\idea-project\maven\Localware\org\apache\maven\maven-ant-tasks\2.1.3\maven-ant-tasks-2.1.3.jar;D:\idea-project\maven\Localware\org\apache\ant\ant\1.8.0\ant-1.8.0.jar;D:\idea-project\maven\Localware\org\apache\ant\ant-launcher\1.8.0\ant-launcher-1.8.0.jar;D:\idea-project\maven\Localware\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;D:\idea-project\maven\Localware\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;D:\idea-project\maven\Localware\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-file\1.0-beta-6\wagon-file-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-http-lightweight\1.0-beta-6\wagon-http-lightweight-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;D:\idea-project\maven\Localware\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;D:\idea-project\maven\Localware\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;D:\idea-project\maven\Localware\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;D:\idea-project\maven\Localware\org\testng\testng\6.8.5\testng-6.8.5.jar;D:\idea-project\maven\Localware\junit\junit\4.10\junit-4.10.jar;D:\idea-project\maven\Localware\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\idea-project\maven\Localware\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\idea-project\maven\Localware\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\idea-project\maven\Localware\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;D:\idea-project\maven\Localware\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\idea-project\maven\Localware\velocity\velocity\1.4\velocity-1.4.jar;D:\idea-project\maven\Localware\org\uncommons\reportng\1.1.5\reportng-1.1.5.jar;D:\idea-project\maven\Localware\com\google\inject\guice\3.0\guice-3.0.jar;D:\idea-project\maven\Localware\javax\inject\javax.inject\1\javax.inject-1.jar;D:\idea-project\maven\Localware\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="C:\Users\Jack\AppData\Local\Temp\surefirebooter6198344358569179067.jar C:\Users\Jack\AppData\Local\Temp\surefire730932405280883959tmp C:\Users\Jack\AppData\Local\Temp\surefire6157948864413271192tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\idea-project\maven\Localware"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Car.CarTest" name="test01" time="0.018"/>
+  <testcase classname="Car.CarTest" name="test02" time="0.001"/>
+</testsuite>

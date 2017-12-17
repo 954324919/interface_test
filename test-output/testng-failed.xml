@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="testdemo(failed)">
+    <classes>
+      <class name="Car.CarTest">
+        <methods>
+          <include name="test01"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Car.CarTest -->
+    </classes>
+  </test> <!-- testdemo(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

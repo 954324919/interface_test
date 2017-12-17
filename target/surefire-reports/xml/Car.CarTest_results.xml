@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testdemo"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.003">
+  <properties />
+  
+  
+            <testcase name="test02" time="0.001" classname="Car.CarTest" />
+                <testcase name="test01" time="0.002" classname="Car.CarTest" />
+      
+</testsuite>
